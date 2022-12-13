@@ -1,0 +1,40 @@
+.banner {
+    position: absolute;
+    width: 335px;
+    height: 111px;
+    left: 19px;
+    top: 82px;
+    background: #000000;
+    mix-blend-mode: darken;
+    border-radius: 10px;
+
+    h1 {
+        position: absolute;
+        left: 9.6%;
+        right: 32.53%;
+        top: 14.04%;
+        bottom: 80.05%;
+        width: 100%;
+
+        font-family: $font-1;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        /* or 24px */
+
+        display: flex;
+        align-items: flex-end;
+
+
+        color: #FFFFFF;
+    }
+
+    img {
+        position: absolute;
+        width: 335px;
+        height: 111px;
+        border-radius: 10px;
+        opacity: 0.8;
+    }
+}

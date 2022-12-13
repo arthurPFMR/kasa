@@ -1,10 +1,13 @@
 import React from 'react';
+import Banner from '../components/Banner';
+import Header from '../components/Header';
 
 const Home = () => {
     return (
-        <div>
-            <h1>ACCUEIL</h1>
-        </div>
+<section className='top'>
+    <Header />
+    <Banner />
+</section>
     );
 };
 

@@ -1,0 +1,13 @@
+.nav-container {
+    width: 100%;
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: 5%;
+    }
+
+    li {
+        color: $color-red;
+        font-size: 12px;
+    }
+}
